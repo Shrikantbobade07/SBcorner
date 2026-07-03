@@ -1,0 +1,10 @@
+# List — mutable
+records = []
+records.append({'id': 1, 'value': 100})
+print(records)
+
+# Tuple — immutable, faster
+columns = ('id', 'name', 'amount', 'date')
+for col in columns:
+    print(col)
+

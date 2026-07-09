@@ -4,7 +4,6 @@ data = {
     'A' : [1,2,2,3,4,3,5],
     'B' : ['x','y','z','x','z','w','v']
 }
-
 df = pd.DataFrame(data)
 
 remove_duplicate = df.drop_duplicates(keep='first') # compare row line by line
